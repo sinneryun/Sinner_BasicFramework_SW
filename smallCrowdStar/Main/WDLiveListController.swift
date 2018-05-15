@@ -10,6 +10,13 @@ import UIKit
 
 class WDLiveListController: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        MobClick.beginLogPageView("WDLiveListController")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        MobClick.endLogPageView("WDLiveListController")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,8 +24,27 @@ class WDLiveListController: UIViewController {
         
         title = "直播间"
         
+        
+        let btn:UIButton = UIButton(type: .custom)
+        btn.frame = CGRect(x: 10, y: 150, width: 100, height: 30)
+        btn.setTitle("Go", for: .normal)
+        btn.backgroundColor = UIColor.cyan
+        btn.addTarget(self, action:#selector(btnClick), for: .touchUpInside)
+        self.view.addSubview(btn)
+        
+        
+        
         UIApplication.shared.statusBarStyle = .lightContent
     }
+    
+    @objc func btnClick(){
+        let testView = WDtestViewController()
+        
+        self.navigationController?.pushViewController(testView , animated: true)
+    }
+        
+        
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

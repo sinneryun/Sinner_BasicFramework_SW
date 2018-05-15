@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A3AC8E20AAAC770016A1C6 /* WDtestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A3AC8D20AAAC770016A1C6 /* WDtestViewController.swift */; };
 		3CBAB3BFC789641FB215DD76 /* Pods_smallCrowdStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A5A9A1EE58665AA4CDCA4D /* Pods_smallCrowdStar.framework */; };
 		47F32EA620A2D759003AF52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F32EA420A2D759003AF52A /* Main.storyboard */; };
 		47F32EA820A2D759003AF52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F32EA720A2D759003AF52A /* Assets.xcassets */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10A3AC8920AA91640016A1C6 /* smallCrowdStar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smallCrowdStar-Bridging-Header.h"; sourceTree = "<group>"; };
+		10A3AC8D20AAAC770016A1C6 /* WDtestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDtestViewController.swift; sourceTree = "<group>"; };
 		47F32E9D20A2D759003AF52A /* smallCrowdStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallCrowdStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F32EA520A2D759003AF52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47F32EA720A2D759003AF52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,7 +35,6 @@
 		47F32EAC20A2D759003AF52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47F32EB420A2D974003AF52A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		47F32EB520A2D974003AF52A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		47F32EBC20A2D974003AF52A /* Liuda-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Liuda-Bridging-Header.h"; sourceTree = "<group>"; };
 		47F32EBD20A2D974003AF52A /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		47F32EBE20A2D974003AF52A /* WDGlobalDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDGlobalDefine.swift; sourceTree = "<group>"; };
 		47F32EC020A2D974003AF52A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +106,7 @@
 			children = (
 				47F32EB320A2D974003AF52A /* Category */,
 				47F32EB620A2D974003AF52A /* Lib */,
-				47F32EBC20A2D974003AF52A /* Liuda-Bridging-Header.h */,
+				10A3AC8920AA91640016A1C6 /* smallCrowdStar-Bridging-Header.h */,
 				47F32EBD20A2D974003AF52A /* NetworkTools.swift */,
 				47F32EBE20A2D974003AF52A /* WDGlobalDefine.swift */,
 			);
@@ -137,6 +139,7 @@
 				47F32EC420A2D974003AF52A /* WDTabBarController.swift */,
 				47F32ED020A2D9F3003AF52A /* WDLiveListController.swift */,
 				47F32ED220A2D9FE003AF52A /* WDVideoViewController.swift */,
+				10A3AC8D20AAAC770016A1C6 /* WDtestViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				47F32E9A20A2D759003AF52A /* Frameworks */,
 				47F32E9B20A2D759003AF52A /* Resources */,
 				8BA25ABD5AA6D311326A802E /* [CP] Embed Pods Frameworks */,
+				DA2EFF7876E656BD00D2F90A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +188,7 @@
 				TargetAttributes = {
 					47F32E9C20A2D759003AF52A = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -272,6 +277,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smallCrowdStar/Pods-smallCrowdStar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DA2EFF7876E656BD00D2F90A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smallCrowdStar/Pods-smallCrowdStar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -286,6 +306,7 @@
 				47F32ED120A2D9F3003AF52A /* WDLiveListController.swift in Sources */,
 				47F32ECD20A2D974003AF52A /* WDBaseViewController.swift in Sources */,
 				47F32ECF20A2D974003AF52A /* WDTabBarController.swift in Sources */,
+				10A3AC8E20AAAC770016A1C6 /* WDtestViewController.swift in Sources */,
 				47F32ED320A2D9FE003AF52A /* WDVideoViewController.swift in Sources */,
 				47F32EC520A2D974003AF52A /* UIColor+Extension.swift in Sources */,
 				47F32ECE20A2D974003AF52A /* WDNavigationController.swift in Sources */,
@@ -428,6 +449,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N2DYRKQB36;
@@ -438,6 +460,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "24730a26-cc32-4877-b0c3-f7955dc2695f";
 				PROVISIONING_PROFILE_SPECIFIER = XiaoZhongXingQiu;
+				SWIFT_OBJC_BRIDGING_HEADER = "smallCrowdStar/Library/smallCrowdStar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
@@ -450,6 +474,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N2DYRKQB36;
@@ -460,6 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "24730a26-cc32-4877-b0c3-f7955dc2695f";
 				PROVISIONING_PROFILE_SPECIFIER = XiaoZhongXingQiu;
+				SWIFT_OBJC_BRIDGING_HEADER = "smallCrowdStar/Library/smallCrowdStar-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";

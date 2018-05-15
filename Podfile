@@ -11,5 +11,6 @@ pod 'Kingfisher', '~> 4.0’
 pod 'SDCycleScrollView','~> 1.75’
 pod 'MJRefresh'
 pod 'DZNEmptyDataSet'
+pod 'UMengAnalytics'
 
 end

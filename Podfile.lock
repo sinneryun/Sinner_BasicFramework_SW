@@ -2,7 +2,7 @@ PODS:
   - Alamofire (4.7.2)
   - DZNEmptyDataSet (1.8.1)
   - HandyJSON (4.0.0-beta.1)
-  - Kingfisher (4.7.0)
+  - Kingfisher (4.8.0)
   - MJRefresh (3.1.15.3)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
@@ -10,7 +10,8 @@ PODS:
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
   - SnapKit (4.0.0)
-  - SwiftyJSON (4.0.0)
+  - SwiftyJSON (4.1.0)
+  - UMengAnalytics (4.2.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
@@ -21,30 +22,20 @@ DEPENDENCIES:
   - SDCycleScrollView (~> 1.75)
   - SnapKit (~> 4.0.0)
   - SwiftyJSON
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Alamofire
-    - DZNEmptyDataSet
-    - HandyJSON
-    - Kingfisher
-    - MJRefresh
-    - SDCycleScrollView
-    - SDWebImage
-    - SnapKit
-    - SwiftyJSON
+  - UMengAnalytics
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
-  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
 
-PODFILE CHECKSUM: c17c9395287b2befa64b1135e922744ac3f33713
+PODFILE CHECKSUM: aee93e2d6f58597338c360ab1d479c8c859559cd
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.4.0
