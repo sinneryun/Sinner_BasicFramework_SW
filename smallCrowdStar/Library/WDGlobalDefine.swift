@@ -46,3 +46,19 @@ func WDLOG<T>(_ message : T, file : String = #file, funcName : String = #functio
         
     #endif
 }
+
+// MARK:- 获取当前展示ViewContrller
+func currentViewController(base: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+    if let nav = base as? UINavigationController {
+        return currentViewController(base: nav.visibleViewController)
+    }
+    if let tab = base as? UITabBarController {
+        return currentViewController(base: tab.selectedViewController)
+    }
+    if let presented = base?.presentedViewController {
+        return currentViewController(base: presented)
+    }
+    return base
+}
+
+

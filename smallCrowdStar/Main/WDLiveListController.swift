@@ -11,11 +11,11 @@ import UIKit
 class WDLiveListController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
-        MobClick.beginLogPageView("WDLiveListController")
+        UMengTools.GoIn(ViewTitle: self.title!)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        MobClick.endLogPageView("WDLiveListController")
+        UMengTools.GoOut(ViewTitle: self.title!)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

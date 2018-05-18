@@ -7,9 +7,13 @@
 #import <SDCycleScrollView/SDCycleScrollView.h>
 #import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
 
-#import <UMMobClick/MobClick.h> //友盟统计
 
 
+
+#import <UMCommon/UMCommon.h> //友盟基础库
+#import <UMAnalytics/MobClick.h> //友盟统计
+#import <UMShare/UMShare.h> //友盟分享
+#import <UShareUI/UShareUI.h>//友盟分享面板
 
 
 

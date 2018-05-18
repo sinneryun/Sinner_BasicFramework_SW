@@ -11,7 +11,36 @@ PODS:
   - SDWebImage/Core (4.3.3)
   - SnapKit (4.0.0)
   - SwiftyJSON (4.1.0)
-  - UMengAnalytics (4.2.4)
+  - UMCAnalytics (5.5.0):
+    - UMCCommon
+  - UMCCommon (1.5.0)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.2):
+    - UMCCommon
+  - UMCShare/Social/QQ (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - UMCShare/Social/WeChat (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.9.2):
+    - UMCCommon
+    - UMCShare/Core
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
@@ -22,7 +51,13 @@ DEPENDENCIES:
   - SDCycleScrollView (~> 1.75)
   - SnapKit (~> 4.0.0)
   - SwiftyJSON
-  - UMengAnalytics
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+  - UMCShare/Social/QQ
+  - UMCShare/Social/Sina
+  - UMCShare/Social/WeChat
+  - UMCShare/UI
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
@@ -34,8 +69,11 @@ SPEC CHECKSUMS:
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
-  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  UMCAnalytics: 4667788559a72f2fa5077117d1b8802a3b6eb6bb
+  UMCCommon: 82d21f4bb9532a5472cc533bbd8ed48aff376a14
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: 4d20cb77e085bcc9f8f2c81d24777d7dc6638b16
 
-PODFILE CHECKSUM: aee93e2d6f58597338c360ab1d479c8c859559cd
+PODFILE CHECKSUM: 19e15c6ff4d286c8abe4a745cec64a2e2e32c04e
 
 COCOAPODS: 1.4.0

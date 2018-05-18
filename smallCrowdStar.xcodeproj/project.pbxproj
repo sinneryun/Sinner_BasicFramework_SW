@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		10A3AC8E20AAAC770016A1C6 /* WDtestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A3AC8D20AAAC770016A1C6 /* WDtestViewController.swift */; };
+		10A3AC9020AAB8090016A1C6 /* UMengTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A3AC8F20AAB8090016A1C6 /* UMengTools.swift */; };
+		10A3AC9220AABB2E0016A1C6 /* KeyInfoDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A3AC9120AABB2E0016A1C6 /* KeyInfoDefine.swift */; };
+		10A3ACA820AC166E0016A1C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACA720AC166E0016A1C6 /* CoreGraphics.framework */; };
+		10A3ACAA20AC16740016A1C6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACA920AC16740016A1C6 /* libsqlite3.tbd */; };
+		10A3ACAC20AC16830016A1C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACAB20AC16830016A1C6 /* SystemConfiguration.framework */; };
+		10A3ACAE20AC168B0016A1C6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACAD20AC168B0016A1C6 /* CoreTelephony.framework */; };
+		10A3ACB020AC169A0016A1C6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACAF20AC169A0016A1C6 /* libc++.tbd */; };
+		10A3ACB220AC16A10016A1C6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACB120AC16A10016A1C6 /* libz.tbd */; };
+		10A3ACB420AC16B60016A1C6 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACB320AC16B50016A1C6 /* Photos.framework */; };
+		10A3ACB620AC16C00016A1C6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A3ACB520AC16C00016A1C6 /* ImageIO.framework */; };
 		3CBAB3BFC789641FB215DD76 /* Pods_smallCrowdStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A5A9A1EE58665AA4CDCA4D /* Pods_smallCrowdStar.framework */; };
 		47F32EA620A2D759003AF52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F32EA420A2D759003AF52A /* Main.storyboard */; };
 		47F32EA820A2D759003AF52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F32EA720A2D759003AF52A /* Assets.xcassets */; };
@@ -28,6 +38,16 @@
 /* Begin PBXFileReference section */
 		10A3AC8920AA91640016A1C6 /* smallCrowdStar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smallCrowdStar-Bridging-Header.h"; sourceTree = "<group>"; };
 		10A3AC8D20AAAC770016A1C6 /* WDtestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDtestViewController.swift; sourceTree = "<group>"; };
+		10A3AC8F20AAB8090016A1C6 /* UMengTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMengTools.swift; sourceTree = "<group>"; };
+		10A3AC9120AABB2E0016A1C6 /* KeyInfoDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInfoDefine.swift; sourceTree = "<group>"; };
+		10A3ACA720AC166E0016A1C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10A3ACA920AC16740016A1C6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		10A3ACAB20AC16830016A1C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		10A3ACAD20AC168B0016A1C6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		10A3ACAF20AC169A0016A1C6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		10A3ACB120AC16A10016A1C6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		10A3ACB320AC16B50016A1C6 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		10A3ACB520AC16C00016A1C6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		47F32E9D20A2D759003AF52A /* smallCrowdStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallCrowdStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F32EA520A2D759003AF52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47F32EA720A2D759003AF52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +74,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A3ACAA20AC16740016A1C6 /* libsqlite3.tbd in Frameworks */,
+				10A3ACB620AC16C00016A1C6 /* ImageIO.framework in Frameworks */,
+				10A3ACB420AC16B60016A1C6 /* Photos.framework in Frameworks */,
+				10A3ACB220AC16A10016A1C6 /* libz.tbd in Frameworks */,
+				10A3ACB020AC169A0016A1C6 /* libc++.tbd in Frameworks */,
+				10A3ACAE20AC168B0016A1C6 /* CoreTelephony.framework in Frameworks */,
+				10A3ACAC20AC16830016A1C6 /* SystemConfiguration.framework in Frameworks */,
+				10A3ACA820AC166E0016A1C6 /* CoreGraphics.framework in Frameworks */,
 				3CBAB3BFC789641FB215DD76 /* Pods_smallCrowdStar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +137,7 @@
 				10A3AC8920AA91640016A1C6 /* smallCrowdStar-Bridging-Header.h */,
 				47F32EBD20A2D974003AF52A /* NetworkTools.swift */,
 				47F32EBE20A2D974003AF52A /* WDGlobalDefine.swift */,
+				10A3AC9120AABB2E0016A1C6 /* KeyInfoDefine.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -125,6 +154,7 @@
 		47F32EB620A2D974003AF52A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				10A3AC8F20AAB8090016A1C6 /* UMengTools.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -147,6 +177,14 @@
 		926C49965DBE5C5F2C6FC2D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10A3ACB520AC16C00016A1C6 /* ImageIO.framework */,
+				10A3ACB320AC16B50016A1C6 /* Photos.framework */,
+				10A3ACB120AC16A10016A1C6 /* libz.tbd */,
+				10A3ACAF20AC169A0016A1C6 /* libc++.tbd */,
+				10A3ACAD20AC168B0016A1C6 /* CoreTelephony.framework */,
+				10A3ACAB20AC16830016A1C6 /* SystemConfiguration.framework */,
+				10A3ACA920AC16740016A1C6 /* libsqlite3.tbd */,
+				10A3ACA720AC166E0016A1C6 /* CoreGraphics.framework */,
 				B3A5A9A1EE58665AA4CDCA4D /* Pods_smallCrowdStar.framework */,
 			);
 			name = Frameworks;
@@ -283,9 +321,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-smallCrowdStar/Pods-smallCrowdStar-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -301,10 +344,12 @@
 			files = (
 				47F32ECA20A2D974003AF52A /* WDGlobalDefine.swift in Sources */,
 				47F32EC620A2D974003AF52A /* UIView+Extension.swift in Sources */,
+				10A3AC9220AABB2E0016A1C6 /* KeyInfoDefine.swift in Sources */,
 				47F32EC920A2D974003AF52A /* NetworkTools.swift in Sources */,
 				47F32ECB20A2D974003AF52A /* AppDelegate.swift in Sources */,
 				47F32ED120A2D9F3003AF52A /* WDLiveListController.swift in Sources */,
 				47F32ECD20A2D974003AF52A /* WDBaseViewController.swift in Sources */,
+				10A3AC9020AAB8090016A1C6 /* UMengTools.swift in Sources */,
 				47F32ECF20A2D974003AF52A /* WDTabBarController.swift in Sources */,
 				10A3AC8E20AAAC770016A1C6 /* WDtestViewController.swift in Sources */,
 				47F32ED320A2D9FE003AF52A /* WDVideoViewController.swift in Sources */,

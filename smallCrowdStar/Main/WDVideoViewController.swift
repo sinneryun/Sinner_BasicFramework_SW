@@ -11,11 +11,11 @@ import UIKit
 class WDVideoViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
-        MobClick.beginLogPageView("WDVideoViewController")
+        UMengTools.GoIn(ViewTitle: self.title!)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        MobClick.endLogPageView("WDVideoViewController")
+        UMengTools.GoOut(ViewTitle: self.title!)
     }
     
     override func viewDidLoad() {
